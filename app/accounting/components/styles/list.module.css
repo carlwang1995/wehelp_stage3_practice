@@ -1,0 +1,35 @@
+.list_content {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.list_content:hover {
+  background-color: antiquewhite;
+}
+
+.list_info_content {
+  display: flex;
+  height: 100%;
+}
+
+.list_info_price_green {
+  width: 4rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: green;
+}
+
+.list_info_price_red {
+  width: 4rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: red;
+}

@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.main_content {
+  width: 700px;
+}
+
+.hr {
+  width: 80%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.total {
+  margin-top: 2rem;
+  font-weight: 700;
+}
