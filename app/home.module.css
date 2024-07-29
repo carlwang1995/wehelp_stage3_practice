@@ -16,12 +16,12 @@
   background-color: #134074;
 }
 
-.main_welcome {
+.main_signUpTitle {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 10vh;
   width: 100%;
   font-size: 1.5rem;
-  background-color: #8da9c4;
+  font-weight: 500;
 }

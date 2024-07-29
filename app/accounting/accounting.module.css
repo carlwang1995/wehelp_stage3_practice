@@ -19,3 +19,13 @@
   margin-top: 2rem;
   font-weight: 700;
 }
+
+.page_status {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}

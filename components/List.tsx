@@ -10,8 +10,8 @@ interface ListProps {
 export default function List({ data, deleteListData }: ListProps) {
   return (
     <>
-      {data.map((data: any, index: number) => (
-        <div className={styles.list_content} key={index}>
+      {data.map((data: any) => (
+        <div className={styles.list_content} key={data.docId}>
           <div className={styles.list_info_content}>
             <div
               className={
@@ -24,7 +24,7 @@ export default function List({ data, deleteListData }: ListProps) {
             </div>
             <div>{data.describe}</div>
           </div>
-          <button onClick={() => deleteListData(index)}>刪除</button>
+          <button onClick={() => deleteListData(data.docId)}>刪除</button>
         </div>
       ))}
     </>
